@@ -379,7 +379,7 @@
   requirement: |
     Сайт нужно разработать с учетом удобства использования и оптимизировать для скорости работы
   prerequisites: |
-    no dana 
+    Браузер Google Chrome, разрешение дисплея 1680*1050 
   test-data: |
     no data
   steps: 
