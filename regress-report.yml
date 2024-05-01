@@ -133,14 +133,18 @@ test-cases:
   status: pass
 
 bugreports:
-  - summary: |
-      Короткое описание ошибки
-    environment: |
-      Ссылка на билд/коммит/версия ПО и всего окружения
-    steps-to-reproduce: |
-      Полный перечень шагов для воспроизведения, на каком шаге произошла ошибка
-    expected-result: |
-      Какой результат должен был быть без ошибки
-    actual-result: |
-      Какой результат получился на самом деле
-
+   - summary: |
+    На странице присутствуют битые ссылки 
+  environment: |
+    Google Chrome 124.0.6367.79 (Официальная сборка), (64 бит) разрешение 1680*1050
+    ОС Win 10 х64, Hexlet story (version 2)
+  steps-to-reproduce: |
+    1. открыть сайт https://www.drlinkcheck.com/
+    2. в поле проверки вставляем URL приложения https://hexlet-products-store.vercel.app/
+    3. нажать на кнопку Start check
+    4. оценить показатели отчёта
+  expected-result: |
+    На странице отсутствуют битые ссылки
+  actual-result: |
+    На странице присутствуют битые ссылки 
+    Ошибка изображена на скриншоте BG_186.jpg.
