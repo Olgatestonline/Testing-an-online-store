@@ -258,3 +258,19 @@ bugreports:
     actual-result: |
       Пропорции изображений сохранены, изображения выровнены, изображения товаров на картинках обрезаны
       Ошибка изображена на скриншоте BG_247. 
+
+  - summary: |
+      Наличие неиспользуемого CSS и JS  
+    environment: |
+      Google Chrome 124.0.6367.79 (Официальная сборка), (64 бит) разрешение 1680*1050
+      ОС Win 10 х64 (version 2 (https://products-store-git-v2bugfixes-hexlet-components.vercel.app/))
+    steps-to-reproduce: |
+      1. открыть панель разработчика DevTools (нажимаем кнопку F12)
+      2. вызвать командное меню (Ctrl+Shift+P) 
+      3. ввести в строку Show Coverage
+      4. на панели Coverage (Покрытие) нажать кнопку Start instrumenting coverage and reload page 
+      5. оценить наличие неиспользуемого кода в таблице
+    expected-result: |
+      Отсутствует неиспользуемый код CSS и JS на странице
+    actual-result: |
+      Есть неиспользуемые код CSS и JS
