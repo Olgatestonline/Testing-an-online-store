@@ -289,3 +289,4 @@ bugreports:
       Отсутствует неиспользуемый код CSS и JS 
     actual-result: |
       Есть неиспользуемый код CSS и JS 
+    
