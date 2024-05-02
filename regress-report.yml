@@ -278,7 +278,7 @@ bugreports:
   - summary: |
       Короткое описание ошибки
     environment: |
-      Google Chrome 124.0.6367.79 (Официальная сборка), (64 бит) разрешение 1680*1050
+      Google Chrome 124.0.6367.79 (Официальная сборка), (64 бит) разрешение 1680*1050 ОС Win 10 х64 (version 2 (https://products-store-git-v2bugfixes-hexlet-components.vercel.app/))
     steps-to-reproduce: |
       Полный перечень шагов для воспроизведения, на каком шаге произошла ошибка
     expected-result: |
