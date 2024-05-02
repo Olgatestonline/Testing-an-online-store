@@ -276,12 +276,16 @@ bugreports:
       Есть неиспользуемые код CSS и JS
 
   - summary: |
-      Короткое описание ошибки
+      Есть неиспользуемый код CSS и JS в верстке
     environment: |
       Google Chrome 124.0.6367.79 (Официальная сборка), (64 бит) разрешение 1680*1050 ОС Win 10 х64 (version 2 (https://products-store-git-v2bugfixes-hexlet-components.vercel.app/))
     steps-to-reproduce: |
-      Полный перечень шагов для воспроизведения, на каком шаге произошла ошибка
+      1. открыть панель разработчика DevTools (F12)
+      2. вызвать командное меню  (Ctrl+Shift+P)
+      3. ввести в строку Show Coverage - внизу открывается панель для работы
+      4. На панели Coverage нажимаем Start instrumenting coverage and reload page
+      5. оценить наличие неиспользуемого кода в таблице
     expected-result: |
-      Какой результат должен был быть без ошибки
+      Отсутствует неиспользуемый код CSS и JS 
     actual-result: |
-      Какой результат получился на самом де
+      Есть неиспользуемый код CSS и JS 
