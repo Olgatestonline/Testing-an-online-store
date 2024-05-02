@@ -381,13 +381,13 @@
     Сайт открываем в Google Chrome
   test-data: |
     no data
-  steps: 
+  steps: |
     - открываем панель разработчика DevTools (нажимаем кнопку F12) 
     - вызываем командное меню (Ctrl+Shift+P)
     - Вводим в строку Show Coverage - внизу открывается панель для работы
     - на панели Coverage (Покрытие) нажимаем Start instrumenting coverage and reload page
-   expected-result: |
-     Отсутствует неиспользуемый код CSS и JS на странице.
+  expected-result: |
+    Отсутствует неиспользуемый код CSS и JS на странице.
 
 - summary: |
     Проверка скорости загрузски сайта
