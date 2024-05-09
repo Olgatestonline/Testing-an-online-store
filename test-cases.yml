@@ -198,11 +198,11 @@
   requirement: |
     Пользователь должен иметь возможность удалить товар из корзины на странице корзины  
   prerequisites: |
-    В корзину добавлен товар  
+    Открыта главная страница сайта https://hexlet-products-store.vercel.app/, в корзину добавлен товар  
   test-data: |
     no data
   steps: 
-    - открыть корзину
+    - открыть страницу корзины https://hexlet-products-store.vercel.app/cart
     - возле выбранного товара нажать на кнопку Delete  
   expected-result: |
     Выбранный товар удалён из корзины
@@ -212,11 +212,11 @@
   requirement: |
     Пользователь должен иметь возможность удалить товар из корзины на странице корзины  
   prerequisites: |
-    В корзину добавлены два разных товара  
+    открыта главная страница https://hexlet-products-store.vercel.app/ , в корзину добавлены два разных товара  
   test-data: |
     no data
   steps: 
-    - открыть корзину
+    - открыть страницу корзины https://hexlet-products-store.vercel.app/cart 
     - нажать на кнопку Clear cart 
   expected-result: |
     Все товары удалены из корзины
@@ -226,11 +226,11 @@
   requirement: |
     Пользователь должен иметь возможность на странице корзины оформить заказ с переходом на страницу оплаты.
   prerequisites: |
-    В корзину добавлен товар 
+    Открыта главная страница сайта https://hexlet-products-store.vercel.app/ , в корзину добавлен товар 
   test-data: |
     no data
   steps: 
-    - открыть корзину
+    - открыть страницу корзины https://hexlet-products-store.vercel.app/cart
     - нажать на кнопку Checkout
   expected-result: |
     Появляется всплывающее окно с заголовком Order placed successfully (Заказ успешно оформлен)  
@@ -300,11 +300,10 @@
   requirement: |
     Сайт нужно протестировать на совместимость с последними версиями браузеров
   prerequisites: |
-    открыта главная страница сайта https://hexlet-products-store.vercel.app/ 
+    открыта страница сайта https://live.browserstack.com
   test-data: |
     no data
   steps: 
-    - открыть сайт https://live.browserstack.com
     - вставить в поле для тестирования URL сайта магазина https://hexlet-products-store.vercel.app/
     - выбрать на Dashboard последнюю версию браузера Safari 
     - оценить удобство использования сайта в браузере
@@ -316,11 +315,10 @@
   requirement: |
     Сайт нужно протестировать на совместимость с последними версиями браузеров
   prerequisites: |
-    открыта главная страница сайта https://hexlet-products-store.vercel.app/ 
+    открыта страница сайта https://live.browserstack.com 
   test-data: |
     no data
   steps: 
-    - открыть сайт https://live.browserstack.com
     - вставить в поле для тестирования URL сайта магазина https://hexlet-products-store.vercel.app/
     - выбрать на Dashboard последнюю версию браузера Opera 
     - оценить удобство использования сайта в браузере
@@ -442,11 +440,10 @@
   requirement: |
     Сайт нужно разработать с учетом удобства использования и оптимизировать для скорости работы
   prerequisites: |
-    открыта главная страница сайта https://hexlet-products-store.vercel.app/ 
+    открыта главная страница сайта https://www.drlinkcheck.com 
   test-data: |
     no data
   steps: 
-    - открываем сайт https://www.drlinkcheck.com 
     - в поле проверки вставляем URL нашего приложения https://hexlet-products-store.vercel.app/
     - нажимаем на кнопку Srart check
     - анализируем данные отчета на странице
