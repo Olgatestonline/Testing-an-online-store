@@ -4,7 +4,7 @@
   requirement: |
     Пользователь должен иметь возможность искать товары по ключевому слову или категории
   prerequisites: |
-    no data  
+    открыта главная страница сайта https://hexlet-products-store.vercel.app/  
   test-data: |
     no data
   steps:
@@ -18,11 +18,12 @@
   requirement: |
     Пользователь должен иметь возможность искать товары по ключевому слову или категории
   prerequisites: |
-    no data 
+    открыта главная страница сайта https://hexlet-products-store.vercel.app/ 
   test-data: |
     no data
   steps:
     - Открываем список предложенных категорий
+    - Выбираем категорию товара из списка
   expected-result: |
     На странице отображаются товары, соответствующие выбранной категории 
 
@@ -31,7 +32,7 @@
   requirement: |
     Пользователь должен иметь возможность фильтровать товары
   prerequisites: |
-    no data  
+    открыта главная страница сайта https://hexlet-products-store.vercel.app/  
   test-data: |
     no data
   steps:
@@ -44,7 +45,7 @@
   requirement: |
     Пользователь должен иметь возможность фильтровать товары
   prerequisites: |
-    no data  
+    открыта главная страница сайта https://hexlet-products-store.vercel.app/  
   test-data: |
     no data
   steps:
@@ -57,7 +58,7 @@
   requirement: |
     Пользователь должен иметь возможность фильтровать товары
   prerequisites: |
-    no data  
+    открыта главная страница сайта https://hexlet-products-store.vercel.app/  
   test-data: |
     no data
   steps:
@@ -70,7 +71,7 @@
   requirement: |
     Пользователь должен иметь возможность фильтровать товары
   prerequisites: |
-    no data  
+    открыта главная страница сайта https://hexlet-products-store.vercel.app/  
   test-data: |
     установлен диапазон цен от 0 до 50
   steps:
@@ -83,7 +84,7 @@
   requirement: |
     Пользователь должен иметь возможность фильтровать товары
   prerequisites: |
-    no data  
+    открыта главная страница сайта https://hexlet-products-store.vercel.app/ 
   test-data: |
     установлен диапазон цен от 50 до 1000
   steps:
@@ -96,7 +97,7 @@
   requirement: |
     Пользователь должен иметь возможность фильтровать товары
   prerequisites: |
-    no data  
+    открыта главная страница сайта https://hexlet-products-store.vercel.app/ 
   test-data: |
     no data
   steps:
@@ -109,11 +110,11 @@
   requirement: |
     Пользователь должен иметь возможность просматривать товары и просматривать подробную информацию о товаре
   prerequisites: |
-    no data  
+    открыта главная страница сайта https://hexlet-products-store.vercel.app/ 
   test-data: |
     no data
   steps:
-    - открыть страницу товара (например, iPhone9)
+    - открыть страницу товара
     - просмотреть страницу товарв
   expected-result: |
     Страница выбранного товара открывается, возможен просмотр товара
@@ -123,7 +124,7 @@
   requirement: |
     Пользователь должен иметь возможность просматривать товары и просматривать подробную информацию о товаре
   prerequisites: |
-    no data  
+    открыта главная страница сайта https://hexlet-products-store.vercel.app/  
   test-data: |
     no data
   steps:
@@ -138,11 +139,11 @@
   requirement: |
     Пользователь должен иметь возможность просматривать товары и просматривать подробную информацию о товаре
   prerequisites: |
-    no data  
+    открыта главная страница сайта https://hexlet-products-store.vercel.app/  
   test-data: |
     no data
   steps:
-    - открыть страницу товара (например, iPhone9)
+    - открыть страницу товара
     - изучить информацию в карточке товара
   expected-result: |
     На странице товара указана подробная информация о товаре
@@ -152,11 +153,11 @@
   requirement: |
     На странице товара и в каталоге отображается название, рейтинг, цена со скидкой и без нее.
   prerequisites: |
-    no data  
+    открыта главная страница сайта https://hexlet-products-store.vercel.app/ 
   test-data: |
     no data
   steps:
-    - проверяем в каталоге наличие названия, рейтинга, цены со ссылкой и без неё выбранного товара (например, iPhone 9) в каталоге 
+    - проверяем в каталоге наличие названия, рейтинга, цены со ссылкой и без неё выбранного товара в каталоге 
     - открываем страницу выбранного товара
     - проверяем на странице выбранного товара наличие названия, рейтинга, цены со ссылкой и без неё 
     - проверяем соответствие параметров на странице каталога и на странице товара
@@ -168,11 +169,11 @@
   requirement: |
     Пользователь должен иметь возможность добавлять товары в корзину и просматривать содержимое корзины  
   prerequisites: |
-    no data  
+    открыта главная страница сайта https://hexlet-products-store.vercel.app/
   test-data: |
     no data
   steps: 
-    - на странице каталога нажать на кнопку Add to cart возле выбранного товара (например, iPhone 9)
+    - на странице каталога нажать на кнопку Add to cart возле выбранного товара 
     - открыть корзину, просмотреть содержимое
   expected-result: |
     Выбранный товар добавлен в корзину
@@ -182,11 +183,11 @@
   requirement: |
     Пользователь должен иметь возможность добавлять товары в корзину и просматривать содержимое корзины 
   prerequisites: |
-    no data  
+    открыта главная страница сайта https://hexlet-products-store.vercel.app/  
   test-data: |
     no data
   steps: 
-    - открыть страницу выбранного товара ( например, iPhone 9)
+    - открыть страницу выбранного товара 
     - на странице выбранного товара нажать на кнопку Add to cart  
     - открыть корзину, просмотреть содержимое
   expected-result: |
@@ -239,13 +240,13 @@
   requirement: |
     Сайт должен иметь мобильную версию.
   prerequisites: |
-    no dana 
+    открыта главная страница сайта https://hexlet-products-store.vercel.app/  
   test-data: |
     no data
   steps: 
     - открыть DevTools
     - нажать на кнопку "Показать или скрыть панель инструментов устройства"
-    - выбрать мобильное устройство из списка ( например, iPhone XR)
+    - выбрать мобильное устройство из списка 
     - оценить удобство использования сайта на мобильном устройстве
   expected-result: |
     Сайт адаптивен с мобильными устройствами
@@ -255,13 +256,13 @@
   requirement: |
     Сайт должен быть доступен на различных устройствах
   prerequisites: |
-    no dana 
+    открыта главная страница сайта https://hexlet-products-store.vercel.app/  
   test-data: |
     no data
   steps: 
     - открыть DevTools
     - нажать на кнопку "Показать или скрыть панель инструментов устройства"
-    - выбрать устройство iPad из списка ( например, iPad Air)
+    - выбрать устройство iPad из списка 
     - оценить удобство использования сайта на устройстве iPad
   expected-result: |
     Сайт адаптивен с устройством iPad
@@ -271,7 +272,7 @@
   requirement: |
     Сайт нужно протестировать на совместимость с последними версиями браузеров
   prerequisites: |
-    no dana 
+    открыта главная страница сайта https://hexlet-products-store.vercel.app/ 
   test-data: |
     no data
   steps: 
@@ -285,7 +286,7 @@
   requirement: |
     Сайт нужно протестировать на совместимость с последними версиями браузеров
   prerequisites: |
-    no dana 
+    открыта главная страница сайта https://hexlet-products-store.vercel.app/ 
   test-data: |
     no data
   steps: 
@@ -299,7 +300,7 @@
   requirement: |
     Сайт нужно протестировать на совместимость с последними версиями браузеров
   prerequisites: |
-    no dana 
+    открыта главная страница сайта https://hexlet-products-store.vercel.app/ 
   test-data: |
     no data
   steps: 
@@ -315,7 +316,7 @@
   requirement: |
     Сайт нужно протестировать на совместимость с последними версиями браузеров
   prerequisites: |
-    no dana 
+    открыта главная страница сайта https://hexlet-products-store.vercel.app/ 
   test-data: |
     no data
   steps: 
@@ -331,7 +332,7 @@
   requirement: |
     Сайт нужно разработать с учетом удобства использования и оптимизировать для скорости работы
   prerequisites: |
-    no dana 
+    открыта главная страница сайта https://hexlet-products-store.vercel.app/ 
   test-data: |
     no data
   steps: 
@@ -347,7 +348,7 @@
   requirement: |
     Сайт нужно разработать с учетом удобства использования и оптимизировать для скорости работы
   prerequisites: |
-    Браузер Google Chrome, разрешение дисплея 1680*1050 
+    Браузер Google Chrome, разрешение дисплея 1680*1050,  открыта главная страница сайта https://hexlet-products-store.vercel.app/ 
   test-data: |
     no data
   steps: 
@@ -363,7 +364,7 @@
   requirement: |
     Сайт нужно разработать с учетом удобства использования и оптимизировать для скорости работы
   prerequisites: |
-    no dana 
+    открыта главная страница сайта https://hexlet-products-store.vercel.app/ 
   test-data: |
     no data
   steps: 
@@ -378,7 +379,7 @@
   requirement: |
     Сайт нужно разработать с учетом удобства использования и оптимизировать для скорости работы
   prerequisites: |
-    Сайт открываем в Google Chrome
+    Сайт открываем в Google Chrome, открыта главная страница сайта https://hexlet-products-store.vercel.app/ 
   test-data: |
     no data
   steps: 
@@ -394,7 +395,7 @@
   requirement: |
     Важно, чтобы сайт мог обрабатывать большое количество трафика
   prerequisites: |
-    Сайт открываем в Google Chrome 
+    Сайт открываем в Google Chrome открыта главная страница сайта https://hexlet-products-store.vercel.app/ 
   test-data: |
     no data
   steps: 
@@ -409,7 +410,7 @@
   requirement: |
     Сайт нужно разработать с учетом удобства использования и оптимизировать для скорости работы
   prerequisites: |
-    Сайт открываем в Google Chrome 
+    Сайт открываем в Google Chrome открыта главная страница сайта https://hexlet-products-store.vercel.app/ 
   test-data: |
     no data
   steps: 
@@ -425,7 +426,7 @@
   requirement: |
     Сайт нужно разработать с учетом удобства использования и оптимизировать для скорости работы
   prerequisites: |
-    Сайт открываем в Google Chrome 
+    Сайт открываем в Google Chrome открыта главная страница сайта https://hexlet-products-store.vercel.app/ 
   test-data: |
     no data
   steps: 
@@ -441,7 +442,7 @@
   requirement: |
     Сайт нужно разработать с учетом удобства использования и оптимизировать для скорости работы
   prerequisites: |
-    no data 
+    открыта главная страница сайта https://hexlet-products-store.vercel.app/ 
   test-data: |
     no data
   steps: 
@@ -457,7 +458,7 @@
   requirement: |
     При переходе по страницам каталога, страница не перезагружается.
   prerequisites: |
-    no data 
+    открыта главная страница сайта https://hexlet-products-store.vercel.app/ 
   test-data: |
     no data
   steps: 
@@ -470,7 +471,7 @@
   requirement: |
     Сайт должен быть безопасным и защищать данные пользователя
   prerequisites: |
-    Сайт открываем в Google Chrome 
+    Сайт открываем в Google Chrome открыта главная страница сайта https://hexlet-products-store.vercel.app/ 
   test-data: |
     no data
   steps: 
